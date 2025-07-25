@@ -1,0 +1,108 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevJobs – Tech Job Listing Board</title>
+</head>
+
+<body>
+    <header>
+        <h1>DevJobs</h1>
+        <nav>
+            <a href="#">Post a Job</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside>
+            <section class="filter-group">
+                <label for="role">Role</label>
+                <input type="text" id="role" placeholder="e.g. Frontend Developer">
+            </section>
+            <section class="filter-group">
+                <label for="stack">Tech Stack</label>
+                <input type="text" id="stack" placeholder="e.g. HTML, CSS, React">
+            </section>
+            <section class="filter-group">
+                <label for="location">Location</label>
+                <input type="text" id="location" placeholder="e.g. Remote, Bangalore">
+            </section>
+            <section class="filter-group">
+                <label for="experience">Experience</label>
+                <select id="experience">
+                    <option value="">Any</option>
+                    <option value="junior">Junior</option>
+                    <option value="mid">Mid</option>
+                    <option value="senior">Senior</option>
+                </select>
+            </section>
+        </aside>
+
+        <main>
+            <section class="job-card">
+                <h2>Frontend Developer</h2>
+                <p>Company : TechNova</p>
+                <p>Location : Remote</p>
+                <div class="tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">React</span>
+                </div>
+                <button class="apply-btn">Apply</button>
+            </section>
+
+            <section class="job-card">
+                <h2>Backend Developer</h2>
+                <p>Company : CodeCraft</p>
+                <p>Location : Bangalore</p>
+                <div class="tags">
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Express</span>
+                    <span class="tag">MongoDB</span>
+                </div>
+                <button class="apply-btn">Apply</button>
+            </section>
+
+            <section class="job-card">
+                <h2>Full Stack Engineer</h2>
+                <p>Company : DevSphere</p>
+                <p>Location : Hyderabad</p>
+                <div class="tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">TypeScript</span>
+                </div>
+                <button class="apply-btn">Apply</button>
+            </section>
+
+            <section class="job-card">
+                <h2>UI/UX Designer</h2>
+                <p>Company : PixelPushers</p>
+                <p>Location : Mumbai</p>
+                <div class="tags">
+                    <span class="tag">Figma</span>
+                    <span class="tag">Sketch</span>
+                    <span class="tag">Adobe XD</span>
+                </div>
+                <button class="apply-btn">Apply</button>
+            </section>
+
+            <section class="job-card">
+                <h2>DevOps Engineer</h2>
+                <p> Company : CloudMinds</p>
+                <p> Location : Remote</p>
+                <div class="tags">
+                    <span class="tag">AWS</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">Kubernetes</span>
+                </div>
+                <button class="apply-btn">Apply</button>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
